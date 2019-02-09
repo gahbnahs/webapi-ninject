@@ -92,6 +92,16 @@ namespace countingksps.Repositories
                         Food = new Food() {  Id =4,Description="Oil"} }
                 }
             },
+
+             new Food()
+            {
+                Id =4,Description="Lard",
+                Measures = new List<Measure>
+                {
+                    new Measure() { Id=6,Description="measure6" ,TotalFat=12.4M,
+                        Food = new Food() {  Id =4,Description="Lard"} }
+                }
+            },
         };
 
         public CountingKSContext()
