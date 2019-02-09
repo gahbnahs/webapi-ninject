@@ -13,5 +13,7 @@ namespace countingksps.Repositories
         Measure GetMeaure(int foodIds, int id);
         IEnumerable<Diary> GetDiaries(string userName);
         Diary GetDiary(string userName, DateTime diaryId);
+
+        int Test(string str);
     }
 }

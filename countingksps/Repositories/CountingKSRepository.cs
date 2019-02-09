@@ -51,5 +51,10 @@ namespace countingksps.Repositories
         {
             return countingKSContext.GetDiary(userName, diaryId);
         }
+
+        public int Test(string str)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
