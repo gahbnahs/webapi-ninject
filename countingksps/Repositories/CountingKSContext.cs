@@ -80,7 +80,7 @@ namespace countingksps.Repositories
                 Measures = new List<Measure>
                 {
                     new Measure() { Id=4,Description="measure3" ,TotalFat=12.3M,
-                        Food = new Food() {  Id =3,Description="Cheese"} }
+                        Food = new Food() {  Id =3,Description="Cheese"} }  
                 }
             },
             new Food()
